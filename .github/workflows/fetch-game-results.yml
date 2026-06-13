@@ -2,9 +2,8 @@ name: Fetch Next Game Results
 
 on:
   schedule:
-    # Run every 1 minute
-    - cron: '* * * * *'
-  # Allow manual trigger for testing
+    # GitHub Actions mínimo: 5 minutos
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -26,7 +25,6 @@ jobs:
           node-version: '18'
 
       - name: Fetch next game from API
-        id: fetch
         run: node tools/fetch-next-game.js
 
       - name: Check for changes
@@ -54,5 +52,3 @@ jobs:
       - name: Log summary
         run: |
           echo "✅ Verificação completa"
-          echo "Arquivo de rastreamento: data/next-game-id.json"
-          echo "Resultados: data/resultados.json"
