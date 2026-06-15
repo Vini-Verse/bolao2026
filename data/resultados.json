@@ -51,6 +51,10 @@
     "12": {
       "gols_casa": 5,
       "gols_fora": 1
+    },
+    "13": {
+      "gols_casa": 0,
+      "gols_fora": 0
     }
   },
   "extras": {
