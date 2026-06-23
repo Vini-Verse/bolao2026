@@ -1,5 +1,5 @@
 {
   "last_processed_id": 41,
-  "last_updated": "2026-06-23T01:15:16.465Z",
+  "last_updated": "2026-06-23T01:20:16.697Z",
   "notes": "Rastreia qual jogo foi processado por último para não reprocessar. Busca todos os jogos da API e encontra o primeiro sem resultado."
 }
