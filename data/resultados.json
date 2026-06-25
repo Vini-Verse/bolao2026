@@ -227,6 +227,10 @@
     "56": {
       "gols_casa": 2,
       "gols_fora": 1
+    },
+    "57": {
+      "gols_casa": 0,
+      "gols_fora": 0
     }
   },
   "extras": {
