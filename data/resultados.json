@@ -245,8 +245,8 @@
       "gols_fora": 0
     },
     "61": {
-      "gols_casa": 0,
-      "gols_fora": 1
+      "gols_casa": 1,
+      "gols_fora": 2
     },
     "62": {
       "gols_casa": 1,
